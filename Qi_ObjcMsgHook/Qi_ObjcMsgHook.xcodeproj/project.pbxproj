@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9164681BB0A298AD454193ED /* libPods-Qi_ObjcMsgHook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D47E09EA3AA7D83E2DB7869D /* libPods-Qi_ObjcMsgHook.a */; };
+		F14ED94C23850FF400D35A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED94B23850FF400D35A9D /* AppDelegate.m */; };
+		F14ED94F23850FF400D35A9D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED94E23850FF400D35A9D /* SceneDelegate.m */; };
+		F14ED95723850FF500D35A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14ED95623850FF500D35A9D /* Assets.xcassets */; };
+		F14ED95A23850FF500D35A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14ED95823850FF500D35A9D /* LaunchScreen.storyboard */; };
+		F14ED95D23850FF500D35A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED95C23850FF500D35A9D /* main.m */; };
+		F14ED966238516FC00D35A9D /* QiCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED965238516FC00D35A9D /* QiCPUMonitor.m */; };
+		F14ED96C238517FE00D35A9D /* QiCallTraceTimeCostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED96B238517FE00D35A9D /* QiCallTraceTimeCostModel.m */; };
+		F14ED9722385182E00D35A9D /* QiCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED9712385182E00D35A9D /* QiCallStack.m */; };
+		F14ED9752385184000D35A9D /* QiCallStackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED9742385183F00D35A9D /* QiCallStackModel.m */; };
+		F14ED9782385193C00D35A9D /* QiLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED9772385193C00D35A9D /* QiLagMonitor.m */; };
+		F14ED97B2385196500D35A9D /* QiLagDB.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED97A2385196500D35A9D /* QiLagDB.m */; };
+		F14ED97E238519EC00D35A9D /* QiCallTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED97D238519EC00D35A9D /* QiCallTrace.m */; };
+		F14ED98523851AA300D35A9D /* QiCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = F14ED98423851AA300D35A9D /* QiCallTraceCore.c */; };
+		F14ED98B238531C800D35A9D /* QiRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED98A238531C800D35A9D /* QiRootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4976B0886AEEBF116F87F1BF /* Pods-Qi_ObjcMsgHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qi_ObjcMsgHook.debug.xcconfig"; path = "Target Support Files/Pods-Qi_ObjcMsgHook/Pods-Qi_ObjcMsgHook.debug.xcconfig"; sourceTree = "<group>"; };
+		7D50652F404D4AE35BD9BF75 /* Pods-Qi_ObjcMsgHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qi_ObjcMsgHook.release.xcconfig"; path = "Target Support Files/Pods-Qi_ObjcMsgHook/Pods-Qi_ObjcMsgHook.release.xcconfig"; sourceTree = "<group>"; };
+		D47E09EA3AA7D83E2DB7869D /* libPods-Qi_ObjcMsgHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Qi_ObjcMsgHook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14ED94723850FF400D35A9D /* Qi_ObjcMsgHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qi_ObjcMsgHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14ED94A23850FF400D35A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F14ED94B23850FF400D35A9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F14ED94D23850FF400D35A9D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F14ED94E23850FF400D35A9D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F14ED95623850FF500D35A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F14ED95923850FF500D35A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14ED95B23850FF500D35A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14ED95C23850FF500D35A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F14ED964238516FC00D35A9D /* QiCPUMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCPUMonitor.h; sourceTree = "<group>"; };
+		F14ED965238516FC00D35A9D /* QiCPUMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCPUMonitor.m; sourceTree = "<group>"; };
+		F14ED96A238517FE00D35A9D /* QiCallTraceTimeCostModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallTraceTimeCostModel.h; sourceTree = "<group>"; };
+		F14ED96B238517FE00D35A9D /* QiCallTraceTimeCostModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallTraceTimeCostModel.m; sourceTree = "<group>"; };
+		F14ED96D2385181A00D35A9D /* QiCallLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallLib.h; sourceTree = "<group>"; };
+		F14ED9702385182E00D35A9D /* QiCallStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallStack.h; sourceTree = "<group>"; };
+		F14ED9712385182E00D35A9D /* QiCallStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallStack.m; sourceTree = "<group>"; };
+		F14ED9732385183F00D35A9D /* QiCallStackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallStackModel.h; sourceTree = "<group>"; };
+		F14ED9742385183F00D35A9D /* QiCallStackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallStackModel.m; sourceTree = "<group>"; };
+		F14ED9762385193C00D35A9D /* QiLagMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiLagMonitor.h; sourceTree = "<group>"; };
+		F14ED9772385193C00D35A9D /* QiLagMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiLagMonitor.m; sourceTree = "<group>"; };
+		F14ED9792385196500D35A9D /* QiLagDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiLagDB.h; sourceTree = "<group>"; };
+		F14ED97A2385196500D35A9D /* QiLagDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiLagDB.m; sourceTree = "<group>"; };
+		F14ED97C238519EC00D35A9D /* QiCallTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallTrace.h; sourceTree = "<group>"; };
+		F14ED97D238519EC00D35A9D /* QiCallTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallTrace.m; sourceTree = "<group>"; };
+		F14ED98323851AA300D35A9D /* QiCallTraceCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallTraceCore.h; sourceTree = "<group>"; };
+		F14ED98423851AA300D35A9D /* QiCallTraceCore.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QiCallTraceCore.c; sourceTree = "<group>"; };
+		F14ED989238531C800D35A9D /* QiRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiRootViewController.h; sourceTree = "<group>"; };
+		F14ED98A238531C800D35A9D /* QiRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiRootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F14ED94423850FF400D35A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9164681BB0A298AD454193ED /* libPods-Qi_ObjcMsgHook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59E79AC6317F382CC423A49E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4976B0886AEEBF116F87F1BF /* Pods-Qi_ObjcMsgHook.debug.xcconfig */,
+				7D50652F404D4AE35BD9BF75 /* Pods-Qi_ObjcMsgHook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F14ED93E23850FF400D35A9D = {
+			isa = PBXGroup;
+			children = (
+				F14ED94923850FF400D35A9D /* Qi_ObjcMsgHook */,
+				F14ED94823850FF400D35A9D /* Products */,
+				59E79AC6317F382CC423A49E /* Pods */,
+				F8B0AB9119CEB0AADB20D276 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F14ED94823850FF400D35A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14ED94723850FF400D35A9D /* Qi_ObjcMsgHook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14ED94923850FF400D35A9D /* Qi_ObjcMsgHook */ = {
+			isa = PBXGroup;
+			children = (
+				F14ED9632385108800D35A9D /* QiLagMonitor */,
+				F14ED94A23850FF400D35A9D /* AppDelegate.h */,
+				F14ED94B23850FF400D35A9D /* AppDelegate.m */,
+				F14ED94D23850FF400D35A9D /* SceneDelegate.h */,
+				F14ED94E23850FF400D35A9D /* SceneDelegate.m */,
+				F14ED989238531C800D35A9D /* QiRootViewController.h */,
+				F14ED98A238531C800D35A9D /* QiRootViewController.m */,
+				F14ED95623850FF500D35A9D /* Assets.xcassets */,
+				F14ED95823850FF500D35A9D /* LaunchScreen.storyboard */,
+				F14ED95B23850FF500D35A9D /* Info.plist */,
+				F14ED95C23850FF500D35A9D /* main.m */,
+			);
+			path = Qi_ObjcMsgHook;
+			sourceTree = "<group>";
+		};
+		F14ED9632385108800D35A9D /* QiLagMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				F14ED9762385193C00D35A9D /* QiLagMonitor.h */,
+				F14ED9772385193C00D35A9D /* QiLagMonitor.m */,
+				F14ED964238516FC00D35A9D /* QiCPUMonitor.h */,
+				F14ED965238516FC00D35A9D /* QiCPUMonitor.m */,
+				F14ED9792385196500D35A9D /* QiLagDB.h */,
+				F14ED97A2385196500D35A9D /* QiLagDB.m */,
+				F14ED96D2385181A00D35A9D /* QiCallLib.h */,
+				F14ED9702385182E00D35A9D /* QiCallStack.h */,
+				F14ED9712385182E00D35A9D /* QiCallStack.m */,
+				F14ED9732385183F00D35A9D /* QiCallStackModel.h */,
+				F14ED9742385183F00D35A9D /* QiCallStackModel.m */,
+				F14ED96A238517FE00D35A9D /* QiCallTraceTimeCostModel.h */,
+				F14ED96B238517FE00D35A9D /* QiCallTraceTimeCostModel.m */,
+				F14ED97C238519EC00D35A9D /* QiCallTrace.h */,
+				F14ED97D238519EC00D35A9D /* QiCallTrace.m */,
+				F14ED98323851AA300D35A9D /* QiCallTraceCore.h */,
+				F14ED98423851AA300D35A9D /* QiCallTraceCore.c */,
+			);
+			path = QiLagMonitor;
+			sourceTree = "<group>";
+		};
+		F8B0AB9119CEB0AADB20D276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D47E09EA3AA7D83E2DB7869D /* libPods-Qi_ObjcMsgHook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F14ED94623850FF400D35A9D /* Qi_ObjcMsgHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14ED96023850FF500D35A9D /* Build configuration list for PBXNativeTarget "Qi_ObjcMsgHook" */;
+			buildPhases = (
+				E03D913CA8ED80F66913A78E /* [CP] Check Pods Manifest.lock */,
+				F14ED94323850FF400D35A9D /* Sources */,
+				F14ED94423850FF400D35A9D /* Frameworks */,
+				F14ED94523850FF400D35A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qi_ObjcMsgHook;
+			productName = Qi_ObjcMsgHook;
+			productReference = F14ED94723850FF400D35A9D /* Qi_ObjcMsgHook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14ED93F23850FF400D35A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = QiShare;
+				TargetAttributes = {
+					F14ED94623850FF400D35A9D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F14ED94223850FF400D35A9D /* Build configuration list for PBXProject "Qi_ObjcMsgHook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14ED93E23850FF400D35A9D;
+			productRefGroup = F14ED94823850FF400D35A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14ED94623850FF400D35A9D /* Qi_ObjcMsgHook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F14ED94523850FF400D35A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14ED95A23850FF500D35A9D /* LaunchScreen.storyboard in Resources */,
+				F14ED95723850FF500D35A9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E03D913CA8ED80F66913A78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qi_ObjcMsgHook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14ED94323850FF400D35A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14ED97E238519EC00D35A9D /* QiCallTrace.m in Sources */,
+				F14ED94C23850FF400D35A9D /* AppDelegate.m in Sources */,
+				F14ED966238516FC00D35A9D /* QiCPUMonitor.m in Sources */,
+				F14ED95D23850FF500D35A9D /* main.m in Sources */,
+				F14ED98523851AA300D35A9D /* QiCallTraceCore.c in Sources */,
+				F14ED98B238531C800D35A9D /* QiRootViewController.m in Sources */,
+				F14ED9722385182E00D35A9D /* QiCallStack.m in Sources */,
+				F14ED9782385193C00D35A9D /* QiLagMonitor.m in Sources */,
+				F14ED96C238517FE00D35A9D /* QiCallTraceTimeCostModel.m in Sources */,
+				F14ED94F23850FF400D35A9D /* SceneDelegate.m in Sources */,
+				F14ED97B2385196500D35A9D /* QiLagDB.m in Sources */,
+				F14ED9752385184000D35A9D /* QiCallStackModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F14ED95823850FF500D35A9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14ED95923850FF500D35A9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F14ED95E23850FF500D35A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F14ED95F23850FF500D35A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14ED96123850FF500D35A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4976B0886AEEBF116F87F1BF /* Pods-Qi_ObjcMsgHook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = Qi_ObjcMsgHook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F14ED96223850FF500D35A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D50652F404D4AE35BD9BF75 /* Pods-Qi_ObjcMsgHook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = Qi_ObjcMsgHook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14ED94223850FF400D35A9D /* Build configuration list for PBXProject "Qi_ObjcMsgHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14ED95E23850FF500D35A9D /* Debug */,
+				F14ED95F23850FF500D35A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14ED96023850FF500D35A9D /* Build configuration list for PBXNativeTarget "Qi_ObjcMsgHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14ED96123850FF500D35A9D /* Debug */,
+				F14ED96223850FF500D35A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14ED93F23850FF400D35A9D /* Project object */;
+}
