@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9164681BB0A298AD454193ED /* libPods-Qi_ObjcMsgHook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D47E09EA3AA7D83E2DB7869D /* libPods-Qi_ObjcMsgHook.a */; };
+		D9DCCA7C2B32C77A00465F0F /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D9DCCA7A2B32C77A00465F0F /* fishhook.c */; };
 		F14ED94C23850FF400D35A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED94B23850FF400D35A9D /* AppDelegate.m */; };
 		F14ED94F23850FF400D35A9D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED94E23850FF400D35A9D /* SceneDelegate.m */; };
 		F14ED95723850FF500D35A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14ED95623850FF500D35A9D /* Assets.xcassets */; };
@@ -28,6 +29,8 @@
 		4976B0886AEEBF116F87F1BF /* Pods-Qi_ObjcMsgHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qi_ObjcMsgHook.debug.xcconfig"; path = "Target Support Files/Pods-Qi_ObjcMsgHook/Pods-Qi_ObjcMsgHook.debug.xcconfig"; sourceTree = "<group>"; };
 		7D50652F404D4AE35BD9BF75 /* Pods-Qi_ObjcMsgHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qi_ObjcMsgHook.release.xcconfig"; path = "Target Support Files/Pods-Qi_ObjcMsgHook/Pods-Qi_ObjcMsgHook.release.xcconfig"; sourceTree = "<group>"; };
 		D47E09EA3AA7D83E2DB7869D /* libPods-Qi_ObjcMsgHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Qi_ObjcMsgHook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DCCA7A2B32C77A00465F0F /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		D9DCCA7B2B32C77A00465F0F /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		F14ED94723850FF400D35A9D /* Qi_ObjcMsgHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qi_ObjcMsgHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14ED94A23850FF400D35A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F14ED94B23850FF400D35A9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D9DCCA792B32C77A00465F0F /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				D9DCCA7A2B32C77A00465F0F /* fishhook.c */,
+				D9DCCA7B2B32C77A00465F0F /* fishhook.h */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
 		F14ED93E23850FF400D35A9D = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +130,7 @@
 		F14ED9632385108800D35A9D /* QiLagMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				D9DCCA792B32C77A00465F0F /* fishhook */,
 				F14ED9762385193C00D35A9D /* QiLagMonitor.h */,
 				F14ED9772385193C00D35A9D /* QiLagMonitor.m */,
 				F14ED964238516FC00D35A9D /* QiCPUMonitor.h */,
@@ -254,6 +267,7 @@
 				F14ED94F23850FF400D35A9D /* SceneDelegate.m in Sources */,
 				F14ED97B2385196500D35A9D /* QiLagDB.m in Sources */,
 				F14ED9752385184000D35A9D /* QiCallStackModel.m in Sources */,
+				D9DCCA7C2B32C77A00465F0F /* fishhook.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,8 +400,10 @@
 			baseConfigurationReference = 4976B0886AEEBF116F87F1BF /* Pods-Qi_ObjcMsgHook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8ZX24TX624;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TKRM4J3XJV;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = Qi_ObjcMsgHook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,6 +412,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JingxiDev_18;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -405,8 +423,10 @@
 			baseConfigurationReference = 7D50652F404D4AE35BD9BF75 /* Pods-Qi_ObjcMsgHook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8ZX24TX624;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TKRM4J3XJV;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = Qi_ObjcMsgHook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -415,6 +435,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = JingxiDev_18;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
